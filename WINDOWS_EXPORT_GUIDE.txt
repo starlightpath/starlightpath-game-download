@@ -1,0 +1,12 @@
+星光小徑 Beta 1.0.7 — Godot 4.7.2 修改版
+
+1. 使用 Godot 4.7.2 開啟 project.godot。
+2. 按 F5 測試：新遊戲、設定（音量與全螢幕）、F5 存檔、返回標題、繼續遊戲。
+3. 編輯器執行時，存檔在專案根目錄/game_save_data/save.json。
+4. Windows 匯出後，存檔在 StarlightPath.exe 旁的 game_save_data/save.json。
+5. 編輯器 > 管理匯出範本，安裝與 Godot 4.7.2 完全相符的範本。
+6. 專案 > 匯出 > 新增 Windows Desktop (x86_64)，勾選 Embed PCK，匯出 StarlightPath.exe。
+7. 將 EXE 放在有寫入權限的資料夾，避免 Program Files。
+8. 本次保留舊 user://savegame.json 的讀取相容性。
+
+注意：目前環境未安裝 Godot 4.7.2，無法實際執行引擎驗證。
